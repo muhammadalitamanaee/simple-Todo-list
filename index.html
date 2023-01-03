@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleIndex.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navContainer">
+      <div class="navBar"><a href="">Home</a></div>
+      <div class="navBar"><a href="">ToDo</a></div>
+    </nav>
+    <div class="add__to__do">
+      <label for="input__section">Tittle</label>
+      <input type="text" id="input__section" class="tittle" />
+      <label for="input__section">Description</label
+      ><input type="text" id="input__section" class="describtion" />
+      <label for="input__section">Due date</label
+      ><input type="text" id="input__section" class="dueDate" />
+      <a href="./Todo.html"><button id="btn_add">Add Todo</button></a>
+    </div>
+
+    <div class="container">
+      <div>
+        <main>
+          <table class="table_container">
+            <thead>
+              <tr>
+                <th>status</th>
+                <th>description</th>
+                <th>action</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!--                <tr class="tr_job">-->
+              <!--                    <td>-->
+              <!--                        <input type="checkbox" id="checkbox">-->
+              <!--                    </td>-->
+              <!--                    <td>-->
+              <!--                        <p id="todo_job">watch tv</p>-->
+              <!--                    </td>-->
+              <!--                    <td>-->
+              <!--                        <button class="btn">delete</button>-->
+              <!--                    </td>-->
+
+              <!--                </tr>-->
+            </tbody>
+          </table>
+        </main>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="succes-container">
+      <div class="succesMessage">
+        <p>Succes</p>
+        <div class="img-container"><img src="./img/close.png" alt="dd" /></div>
+      </div>
+      <div class="succes-text">your To do task been added succesfuly</div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
